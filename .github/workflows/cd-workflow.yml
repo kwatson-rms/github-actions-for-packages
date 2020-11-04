@@ -2,8 +2,8 @@ name: Docker CD
 #test
 on:
   push:
-    paths:
-      - "**Dockerfile**"
+    #paths:
+      #- "**Dockerfile**"
 jobs:  
   build:
     runs-on: ubuntu-latest
