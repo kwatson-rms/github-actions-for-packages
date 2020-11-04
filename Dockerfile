@@ -1,3 +1,3 @@
 FROM nginx:1.17
-COPY . /usr/share/nginx/html
-#test
+#COPY . /usr/share/nginx/html
+
